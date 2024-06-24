@@ -1,0 +1,11 @@
+@charset "utf-8";
+img.icon { width: 1em; height: 1em; }
+footer { text-align:center; }
+body {
+  font-family: 'Noto Serif JP', 'Source Han Serif JP', 'Noto Color Emoji', serif; 
+  letter-spacing:0.05em;
+  line-height:1.7em;
+}
+h1,h2,h3,h4,h5,h6,th,label,fieldset,caption,figcaption,button,select,option {
+  font-family: 'Noto Sans JP', 'Source Han Sans JP', 'Noto Color Emoji', sans-serif;
+}

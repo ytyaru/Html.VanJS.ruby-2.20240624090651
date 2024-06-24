@@ -1,0 +1,6 @@
+ruby{ display:inline-table; line-height:1em; vertical-align:middle; }
+ruby>rbc{ display:table-row-group; text-align:center; }
+ruby>rtc:nth-of-type(1){ display:table-header-group; font-size:50%; line-height:1em; text-align:center; }
+ruby>rtc:nth-of-type(2){ display:table-footer-group; font-size:50%; line-height:1em; text-align:center; }
+ruby>rbc>rb{ display:table-cell; }
+ruby>rtc>rt{ display:table-cell; }

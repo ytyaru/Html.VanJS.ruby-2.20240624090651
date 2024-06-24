@@ -1,0 +1,34 @@
+ruby._reds{display:inline-table;text-align:center;line-height:1em;}
+/*ruby._reds{display:inline-table;text-align-last:justify;text-justify:inter-ideograph;line-height:1em;}*/
+/*ruby._reds{display:inline-table;text-align-last:justify;vertical-align-last:justify;text-justify:inter-ideograph;line-height:1em;}*/
+/*ruby._reds>rb,ruby>rbc,ruby._reds>rbc{display:table-row;}*/
+/*ruby._reds>rb,ruby>rbc,ruby._reds>rbc{display:table-row;text-align:justify;text-justify:inter-ideograph;}*/
+ruby._reds>rb,ruby>rbc,ruby._reds>rbc{display:table-row;text-align-last:justify;text-justify:inter-ideograph;}
+
+ruby._reds>rt{display:table-header-group ;font-size:50%;text-align:center;}
+
+/*
+ruby._reds>rtc:nth-of-type(1){display:table-header-group;font-size:50%;border-spacing:10px;}
+ruby._reds>rtc:nth-of-type(2){display:table-footer-group;font-size:50%;border-spacing:10px;}
+*/
+/*
+ruby._reds>rtc:nth-of-type(1){display:table-header-group;font-size:50%;padding:1em;margin:1em;border-spacing:1em;}
+ruby._reds>rtc:nth-of-type(2){display:table-footer-group;font-size:50%;padding:1em;margin:1em;border-spacing:1em;}
+*/
+ruby._reds>rtc:nth-of-type(1){display:table-header-group;font-size:50%;}
+ruby._reds>rtc:nth-of-type(2){display:table-footer-group;font-size:50%;}
+/*
+*/
+ruby._reds>rtc._dstop{ display:table-caption;caption-side:top;}
+ruby._reds>rtc._dsbottom{ display:table-caption;caption-side:bottom;}
+._dstop>rt{display:inline !important;}
+._dsbottom>rt{display:inline !important;}
+ruby._reds>rbc>rb{display:table-cell;}
+ruby._reds>rtc>rt{display:table-cell;}
+/*ruby>rtc{display:table-header-group;font-size:50%;text-align:center;}*/
+ruby>rtc{display:table-header-group;font-size:50%;text-align:center;text-align-last:justify;text-justify:inter-ideograph;}
+/*ruby>rtc{display:table-header-group;font-size:50%;text-align:ruby-text;text-align-last:ruby-text;}*/
+ruby *{line-height:1em;}
+ruby._reds,ruby._reds>*{margin:0;padding:0;border-spacing:0;}
+rp{display:none !important;}
+span#_redsdummy{display:inline-block;line-height:1em;height:1em;}
